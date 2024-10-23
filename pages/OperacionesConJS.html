@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones con JavaScript</title>
+    <script type="text/javascript" src="../assets/js/math.js"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <h1>Operaciones con JavaScript</h1>
+    
+    <h2>Verificar si un número es par o impar</h2>
+    <input type="number" id="numeroParImpar">
+    <button onclick="esParOImpar()">Verificar</button>
+    <p id="resultadoParImpar"></p>
+
+    <h2>Mostrar la tabla de multiplicar de un número</h2>
+    <input type="number" id="numeroTabla">
+    <button onclick="mostrarTablaMultiplicar()">Mostrar Tabla</button>
+    <pre id="resultadoTabla"></pre>
+
+    <h2>Realizar un producto mediante sumas</h2>
+    <input type="number" id="num1" placeholder="Número 1">
+    <input type="number" id="num2" placeholder="Número 2">
+    <button onclick="productoConSumas()">Calcular Producto</button>
+    <p id="resultadoProducto"></p>
+
+    <h2>Leer secuencia de números y encontrar el mayor</h2>
+    <input type="text" id="numeros" placeholder="Ejemplo: 3,5,2,8,1">
+    <button onclick="encontrarMayor()">Encontrar Mayor</button>
+    <p id="resultadoMayor"></p>
+
+    <h2>Realizar suma de vectores</h2>
+    <th>Vector A:</th><input type="text" id="vectorA" placeholder="Ejemplo: 3,5,2,8,1">
+    <th>Vector B:</th><input type="text" id="vectorB" placeholder="Ejemplo: 3,5,2,8,1">
+    <button onclick="sumaVectores()">Sumar vectores</button>
+    <p id="resultadoSumaVectores"></p>
+
+    <h2>Leer secuencia de números y encontrar la media</h2>
+    <input type="text" id="numerosM" placeholder="Ejemplo 3,5,2,8,1">
+    <button onclick="calcularMedia()">Calcular Media</button>
+    <p id="resultadoMedia"></p>
+
+    <h2>Leer secuencia de números y ordenar</h2>
+    <input type="text" id="secuencia" placeholder="Ejemplo 3,5,2,8,1">
+    <button onclick="ordenarSecuencia()">Ordenar</button>
+    <p id="resultadoOrdenar"></p>
+
+    <h2>Procesar una secuencia de textos</h2>
+    <input type="text" id="secuenciaTextos" placeholder="Ejemplo: hola, mundo, JavaScript">
+    <button onclick="procesarTextos()">Procesar Textos</button>
+    <pre id="resultadoTextos"></pre>
+
+    <footer>
+        <br>
+        <hr>
+        <address>
+            ESCOM IPN, Unidad Profecional Adolfo López Mateos, Av. Juan de Dios Bátiz, Nueva Industrial Vallejo, Gustavo A. Madero, 07320 Ciudad de México, CDMX
+        </address>
+        <br>
+        <a href="https://github.com/AlvaroMkoko">Contactame</a>
+        <br>
+        &copy;&trade; Copyright 2024. Desde Cero. Hecho por AlvaroMkoko
+    </footer>
+
+    <script>
+        esParOImpar();
+        mostrarTablaMultiplicar();
+        productoConSumas();
+        encontrarMayor();
+        sumaVectores();
+        calcularMedia();
+        ordenarSecuencia();
+        prosesarTextos();
+    </script>
+</body>
+</html>

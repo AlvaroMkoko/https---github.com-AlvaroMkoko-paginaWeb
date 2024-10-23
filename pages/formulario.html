@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form>
+        <h2>Datos personales</h2>
+        <hr>
+        <h3>Nombre Completo</h3>
+        <h4>
+            Nombre(s) : <input type="text" name="txtapellido" id="idApellido" required>
+        </h4>
+        <h4>
+            Apellido Paterno : <input type="text" name="txtapellidoP" id="idApellidoP" required>
+        </h4>
+        <h4>
+            Apellido Materno : <input type="text" name="txtapellidoM" id="idApellidoM" required>
+        </h4>
+        <h4>Genero : </h4>
+            <label for="Masculino"><input  id="M" name="Genero" type="radio">Masculino</label>
+            <label for="Femenino"><input  id="F" name="Genero" type="radio">Femenino</label>
+            <label for="Otro"><input  id="O" name="Genero" type="radio">Otro</label>
+        
+        <br>
+        <hr>
+
+        <h3>Dirección</h3>
+        <h4>
+            Calle : <input type="text" name="txtcalle" id="idcalle" required>
+        </h4>
+        <h4>
+
+        </h4>
+
+        <h4>
+            Codigo Postal : <input type="text" id="cp" name="cp" required>
+        </h4>
+        <h4>Lista de Estados:
+        <input type="text" id="Entidad" name="txtEstado" list="listaDeEstados">
+        <datalist id="listaDeEstados">
+            <option value="CDMX">Ciudad de Mexico</option>
+            <option value="Veracruz">Veracruz</option>
+            <option value="Oaxaca">Oaxaca</option>
+            <option value="Puebla">Puebla</option>
+        </datalist>
+        </h4>
+        
+        <h4>
+        <tr>
+            Listas de Estados:
+            
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <select id="listaDeEstados">
+                    <option value="CDMX">Ciudad de Mexico</option>
+                    <option value="Veracruz">Veracruz</option>
+                    <option value="Oaxaca">Oaxaca</option>
+                    <option value="Puebla">Puebla</option>
+                </select>
+            </td>
+        </tr>
+        </h4>
+        <h4>
+
+        <tr>
+            Municipio/Delegacion:
+            
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <select id="Delegacion">
+                    <option value="Iztapalapa">Iztapalapa</option>
+                    <option value="Alvaro Obregon">Alvaro Obregon</option>
+                    <option value="Magdalena Contreras">Magdalena Contreras</option>
+                    <option value="Milpa Alta">Milpa Alta</option>
+                </select>
+            </td>
+        </tr>
+        </h4>
+
+        <br>
+        <hr>
+
+        <h3>Pasatiempos</h3>
+        <label for="1">Jugar Futbol</label>
+        <input type="checkbox" id="1" >
+        <br>
+        <label for="2">Ver peliculas</label>
+        <input type="checkbox" id="2" >
+        <br>
+        <label for="3">Jugar Videojuegos</label>
+        <input type="checkbox" id="3">
+        <br>
+        <label for="4">Ver la TV</label>
+        <input type="checkbox" id="4">
+        
+        <br>
+        <hr>
+        <br>
+
+        <center><input type="submit" value="Enviar"></center>
+
+    </form>    
+    <footer>
+        <br>
+        <hr>
+        <address>
+            ESCOM IPN, Unidad Profecional Adolfo López Mateos, Av. Juan de Dios Bátiz, Nueva Industrial Vallejo, Gustavo A. Madero, 07320 Ciudad de México, CDMX
+        </address>
+        <br>
+        <a href="https://github.com/AlvaroMkoko">Contactame</a>
+        <br>
+        &copy;&trade; Copyright 2024. Desde Cero. Hecho por AlvaroMkoko
+    </footer>
+</body>
+</html>
